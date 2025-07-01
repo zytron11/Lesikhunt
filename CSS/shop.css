@@ -1,0 +1,277 @@
+body{
+	margin:0;
+	padding:0;
+ background-image: linear-gradient(to bottom, #362510, #593C22, #C2955A);
+}
+@font-face{
+	font-family:"Kosoy";
+	font-weight:normal;
+	font-style:normal;
+	  src: url("../font/KosolapaScript-Regular.ttf") format("truetype");
+}
+#wrapper {
+	margin: 50px auto;
+	background-color:white;
+	padding:10px;
+	width:1215px;
+	 height: auto;
+	border-radius:20px;
+	position:relative;
+	
+}
+#animals{
+	background-image: url(../image/animals4.jpg);
+	width:1200px;
+	height:700px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin:0px auto;
+	border-radius:20px;
+	position:relative;
+}
+#animals p {
+	font: 70px "Bookman Old Style" ;
+	text-transform:uppercase;
+	text-align:center;
+	left:580px;
+	width:500px;
+	top:160px;
+	font-weight:bold;
+	margin:10px;
+	color:white;
+	position:relative;
+	
+}
+#animals #Les {
+	color:#02cece;
+	font:45px Kosoy;
+	font-weight:bold;
+	text-align:left;
+	position:relative;
+	top:325px;
+	width:70px;
+	left:90px;
+	letter-spacing:4px;
+}
+#button{
+	position:absolute;
+	top:50%;
+	width:170px;
+	height:47px;
+	background-color:white;
+	border-radius:5px;
+cursor:pointer;
+display:flex;
+align-items:center;
+justify-content:center;
+top:470px;
+right:270px;
+
+}
+#button p{
+	color:gray;
+	text-transform:uppercase;
+	font-weight:bold;
+	font: 17px "Bookman Old Style";
+ position: static;
+  left: auto;
+  top: auto;
+}
+#button:hover{
+	background-color: #3E2A14;
+}
+#lpep{
+	border-radius:10px;
+	width:650px;
+	height:400px;
+	margin:15px 10px 10px 10px;
+	background-image: url(../image/fon.png);
+	position:relative;
+}
+#tlp{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	padding-left:30px;
+	padding-top:50px;
+}
+#tlp #buy{
+font: 18px "Bookman Old Style" ;
+margin-top:45px;
+margin-left:30px;
+} 
+#tlp #leftup{
+font: 15px "Bookman Old Style" ;
+position:absolute;
+top:20px;
+left:33px;
+} 
+#buy a {
+	text-decoration:none;
+	color:#144059;
+}
+#tlp p{
+	font: 35px "Bookman Old Style" ;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:10px;
+	color:#144059;
+	display:inline-block;
+	z-index:1;
+	margin:5px;
+
+	
+}
+#rpep{
+ background-color:#FFE874;
+	width:520px;
+	height:400px;
+	position:relative;
+	float:right;
+	border-radius:10px;
+	margin:15px 10px 10px 10px;
+}
+#tpp{
+	display:flex;
+	flex-direction:column;
+	padding-top:50px;
+	padding-left:40px;
+}
+#tpp p{
+	font: 35px "Bookman Old Style" ;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#144059;
+	display:inline-block;
+	z-index:1;
+	margin:5px;
+	width:245px;
+	
+}
+#ops{
+	margin-top:15px;
+}
+#tpp #ops p {
+	font: 15px "Bookman Old Style" ;
+	margin:4px;
+	text-transform:none;
+}
+#boots{
+	width:150px;
+	height:105px;
+	position:absolute;
+	top:290px;
+	left:180px;
+}
+#women {
+	float:right;
+	padding-top:50px;
+}
+#H{
+	color:#F47C49;
+	font:50px Kosoy;
+	font-weight:bold;
+	text-align:left;
+	position:absolute;
+	letter-spacing:4px;
+	left:260px;
+	top:20px;
+	margin:0;
+}
+.bold {
+	font-weight:bold !important; /*Усиливает класс , можно было заменить выше сокращение фонт на отдельные строки, фонт фэмэли, фонт стайл*/
+}
+#tpp #jacket{
+font: 18px "Bookman Old Style" ;
+margin-top:45px;
+margin-left:30px;
+}
+#jacket a{
+text-decoration:none;
+	color:#144059;	
+}
+#man{
+	width:300px;
+	height:350px;
+	position:absolute;
+	right:10px;
+}
+#btop{
+	width:1190px;
+	height:70px;
+	margin:0 auto;
+	padding:0;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:relative;
+}
+#icon{
+	width:48px;
+	height:48px;
+	position:absolute;
+	left:10px;
+}
+
+#linkup{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:665px;
+	height:40px;
+	margin:0;
+	padding:0;
+}
+#linkup p{
+	font-family:"Bookman Old Style";
+	font-weight:bold;
+	
+	font-size:16px;
+	margin:18px;
+}
+#linkup a{
+	text-decoration:none;
+	color:#3D2F27;
+	
+}
+#leshunt{
+	text-transform:uppercase;
+	font-family: "Bookman Old Style";
+	font-weight:bold;
+	font-size:18px;
+	position:absolute;
+	left:68px;
+	color:#3F2D18;
+}
+#buttonup{
+	width:120px;
+	height:45px;
+	outline:1px solid red;
+	position:absolute;
+	right:0px;
+	border-radius:10px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color:#FF7030;
+	cursor:pointer;
+
+}
+#buttonup a {
+	text-decoration:none;
+	color:white;
+}
+#buttonup:hover {
+	background-color:#f76020;
+	
+}
+#buttonup p {
+	 text-transform:uppercase;
+	font: 13px "Bookman Old Style";
+	color:white;
+}
+footer{
+	background-color:#725025;
+	height:60px;
+	text-align:center;
+}
